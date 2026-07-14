@@ -1,6 +1,7 @@
 
 import axios from "axios";
 import React, { useState } from "react";
+import NavigationBar from "./NavigationBar";
 
 const AddStation = () => {
 
@@ -70,7 +71,7 @@ const AddStation = () => {
     return (
         <div>
 
-       
+        <NavigationBar/>
 
             <div className="container mt-4">
 

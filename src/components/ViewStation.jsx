@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import NavigationBar from "./NavigationBar";
 
 const ViewStation = () => {
 
@@ -23,7 +24,7 @@ const ViewStation = () => {
 
     return (
         <div>
-
+            <NavigationBar/>
             <div className="container mt-4">
 
                 <div className="card shadow">
